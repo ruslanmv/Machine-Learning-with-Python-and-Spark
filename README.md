@@ -2,16 +2,16 @@
 
 Machine learning is the science of creating algorithms capable of learning based on the data provided to them.  The  primary techniques  used in machine learning that we will cover here: 
 
-
 <div class="alert alert-block alert-info" style="margin-top: 20px">
     <ol>
         <li><a href="#ref1">Linear Regression</a></li>
         <li><a href="#ref2">Logistic Regression</a></li>
         <li><a href="#ref3">Classification </a></li>
         <li><a href="#ref4">Clustering  </a></li>
-        <li><a href="#ref4">Collaborative filtering   </a></li>
+        <li><a href="#ref5">Collaborative filtering   </a></li>
     </ol>
 </div>
+
 
 In the following sections, I  will  take a high-level look at each of these techniques. 
 
