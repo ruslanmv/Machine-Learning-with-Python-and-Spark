@@ -262,11 +262,11 @@ where $$\hat y$$ is the predicted value,  $$n$$  is the number of features, $$x_
 
 To train a Linear regression model , we need to find the value $$\vec w $$ that **minimizes the Root Mean Square Error** (RMSE)
 $$
-RMSE(\vec x,)=\sqrt{\frac{1}{m}\sum_{i=1}^m(h(\vec x^{(i)})-y^{(i)})^2}
+RMSE(\vec x,h)=\sqrt{\frac{1}{m}\sum_{i=1}^m(h(\vec x^{(i)})-y^{(i)})^2}
 $$
 In practical linear regression problems ,  we can use the **Mean Square Error**(MSE). The MSE of a Linear Regression hypothesis $$h_w$$ on a training set $$\vec x$$ is calculated by using the MSE **cost function** for Linear regression
 $$
-MSE(\vec x,)=\frac{1}{m}\sum_{i=1}^m(\vec w^T \vec x^{(i)})-y^{(i)})^2
+MSE(\vec x,h)=\frac{1}{m}\sum_{i=1}^m(\vec w^T \vec x^{(i)})-y^{(i)})^2
 $$
 In Machine Learning, vectors are often represented as column vectors, which are 2D arrays with a single column.
 
